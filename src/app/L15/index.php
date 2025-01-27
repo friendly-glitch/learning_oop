@@ -8,8 +8,8 @@
 
 //Сейчас доработаем класс Router, чтобы регистрировать маршруты для get и post запросов
 
-use App\L15\Router;
-use App\L15\Home;
+use App\Router;
+use App\Controllers\Home;
 
 $router = new Router();
 $router->get('/home', [Home::class, 'index'])

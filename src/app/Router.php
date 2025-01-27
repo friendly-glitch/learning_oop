@@ -1,8 +1,8 @@
 <?php
 
-namespace App\L15;
+namespace App;
 
-use App\L15\Exceptions\RouteNotFoundException;
+use App\Exceptions\RouteNotFoundException;
 
 class Router
 {
