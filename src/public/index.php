@@ -2,6 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
+define('VIEW_PATH', __DIR__ . "/" . "../views");
 //require_once '../app/L13/index.php';
 //require_once '../app/L14/index.php';
 //require_once '../app/L15/index.php';

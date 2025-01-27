@@ -2,10 +2,12 @@
 
 namespace App\Controllers;
 
+use App\View;
+
 class Home
 {
     public function index(){
-        echo 'Home';
+        return View::make('index','main', params: ['param' => 'FOOOOO'])->render();
     }
     public function create(){
         return '
